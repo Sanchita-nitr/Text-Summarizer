@@ -1,0 +1,7 @@
+transformers>=4.52.4
+diffusers>=0.33.1
+ctransformers>=0.2.27
+fastapi
+uvicorn
+torch
+fastapi[all]
