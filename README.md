@@ -68,7 +68,8 @@ FastAPI-based backend with Hugging Face Transformers.
 ## ⚙️ Frontend Setup
 
 ```bash
-cd text-summarizer
+cd frontend
+cd text-summarizer_ui
 npm install
 npm run dev
 ```
