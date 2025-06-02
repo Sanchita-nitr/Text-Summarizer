@@ -202,7 +202,7 @@ docker run -p 3000:3000 text-summarizer:prod
 
 ---
 
-## 🌱 Future Enhancements
+## Future Enhancements
 
 * Support for multiple summarization models
 * User authentication and login
