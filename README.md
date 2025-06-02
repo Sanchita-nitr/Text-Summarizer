@@ -1,8 +1,5 @@
-Here’s your **final corrected and polished `README.md`** with all emoji issues, syntax problems, and formatting inconsistencies fixed for GitHub compatibility and professionalism:
 
----
-
-# ✨ AI Text Summarizer
+# AI Text Summarizer
 
 A modern, AI-powered text summarization application built with **Next.js**, **TypeScript**, **FastAPI**, and **Hugging Face Transformers**. Transform lengthy documents into concise, meaningful summaries — instantly.
 
@@ -20,7 +17,6 @@ A modern, AI-powered text summarization application built with **Next.js**, **Ty
 * **📱 Fully Responsive UI**: Mobile and desktop optimized
 * **📋 One-Click Copy**: Conveniently copy generated summaries
 * **📦 Dockerized Backend**: Containerized FastAPI backend for smooth deployment
-* **✅ Robust Error Handling**: Seamless experience with friendly feedback
 * **🎨 Sleek UI**: Tailwind CSS and custom icon-based design
 
 ---
@@ -32,7 +28,7 @@ A modern, AI-powered text summarization application built with **Next.js**, **Ty
 | Frontend   | Next.js 14+, TypeScript, Tailwind CSS                     |
 | Backend    | FastAPI (Python), Hugging Face Transformers               |
 | API Server | Uvicorn                                                   |
-| Model      | `facebook/bart-large-cnn` (default)                       |
+| Model      | `sshleifer/distilbart-cnn-12-6`                           |
 | Deployment | Vercel (frontend), Hugging Face Spaces / Docker (backend) |
 
 ---
@@ -41,11 +37,10 @@ A modern, AI-powered text summarization application built with **Next.js**, **Ty
 
 ### 🖼️ Frontend (Next.js)
 
-* Built with Next.js App Router
+* Built with Next.js
 * TypeScript + Tailwind CSS
 * Custom SVG Icons
 * State managed using React hooks
-* Environment variables in `.env.local`
 
 ### 🧠 Backend (FastAPI + Hugging Face)
 
@@ -54,7 +49,6 @@ FastAPI-based backend with Hugging Face Transformers.
 **Key Features:**
 
 * Summarization API: Accepts raw text and returns a concise summary
-* GPU Support: Utilizes GPU if available for acceleration
 * Dockerized: Easily deploy to Hugging Face Spaces or run locally
 * CORS-enabled: Compatible with any frontend
 
@@ -74,14 +68,10 @@ FastAPI-based backend with Hugging Face Transformers.
 ## ⚙️ Frontend Setup
 
 ```bash
-git clone <your-repo-url>
 cd text-summarizer
-npm install       # or yarn / pnpm
+npm install
 npm run dev
 ```
-
-Open your browser at: [http://localhost:3000](http://localhost:3000)
-
 ---
 
 ## 🔧 Backend Setup (FastAPI + Docker)
@@ -178,9 +168,7 @@ https://<your-space-name>.hf.space/summarize
 ## 🧪 Testing & Linting
 
 ```bash
-npm run lint         # Run linting checks
 npm run type-check   # TypeScript type checks
-npm run test         # Run unit tests
 npm run build        # Build for production
 ```
 
@@ -220,35 +208,5 @@ docker run -p 3000:3000 text-summarizer:prod
 * User authentication and login
 * Summary history and export/download options
 * Auto language detection and multilingual support
-
+  
 ---
-
-## 🤝 Contributing
-
-We welcome contributions!
-
-1. Fork the repo
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a pull request ✅
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-* **Hugging Face** for providing pretrained transformer models and Spaces
-* **Facebook AI** for the `BART` model
-* **Vercel** for hosting the frontend
-* **FastAPI + Uvicorn** for powering the backend
-* **Tailwind CSS** for the UI styling
-
----
-
-**Built with ❤️ using AI, Python, and TypeScript.**
