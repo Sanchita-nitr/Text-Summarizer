@@ -1,5 +1,5 @@
 
-# AI Text Summarizer
+# Text Summarizer
 
 A modern, AI-powered text summarization application built with **Next.js**, **TypeScript**, **FastAPI**, and **Hugging Face Transformers**. Transform lengthy documents into concise, meaningful summaries — instantly.
 
@@ -10,18 +10,18 @@ A modern, AI-powered text summarization application built with **Next.js**, **Ty
 
 ---
 
-## 🚀 Features
+## Features
 
-* **🧠 Smart Summarization**: State-of-the-art transformer models from Hugging Face
-* **⚡ Real-time Processing**: Fast and precise text summarization
-* **📱 Fully Responsive UI**: Mobile and desktop optimized
-* **📋 One-Click Copy**: Conveniently copy generated summaries
-* **📦 Dockerized Backend**: Containerized FastAPI backend for smooth deployment
-* **🎨 Sleek UI**: Tailwind CSS and custom icon-based design
+* ** Real-time Processing**: Fast and precise text summarization
+* ** Smart Summarization**: State-of-the-art transformer models from Hugging Face
+* ** Fully Responsive UI**: Mobile and desktop optimized
+* ** One-Click Copy**: Conveniently copy generated summaries
+* ** Dockerized Backend**: Containerized FastAPI backend for smooth deployment
+* ** Sleek UI**: Tailwind CSS and custom icon-based design
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer      | Technology                                                |
 | ---------- | --------------------------------------------------------- |
@@ -33,16 +33,16 @@ A modern, AI-powered text summarization application built with **Next.js**, **Ty
 
 ---
 
-## 🧩 Project Architecture
+## Project Architecture
 
-### 🖼️ Frontend (Next.js)
+### Frontend (Next.js)
 
 * Built with Next.js
 * TypeScript + Tailwind CSS
 * Custom SVG Icons
 * State managed using React hooks
 
-### 🧠 Backend (FastAPI + Hugging Face)
+### Backend (FastAPI + Hugging Face)
 
 FastAPI-based backend with Hugging Face Transformers.
 
@@ -54,9 +54,9 @@ FastAPI-based backend with Hugging Face Transformers.
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
-### ✅ Prerequisites
+### Prerequisites
 
 * Node.js 18+
 * Python 3.9+
@@ -65,7 +65,7 @@ FastAPI-based backend with Hugging Face Transformers.
 
 ---
 
-## ⚙️ Frontend Setup
+## Frontend Setup
 
 ```bash
 cd frontend
@@ -75,9 +75,9 @@ npm run dev
 ```
 ---
 
-## 🔧 Backend Setup (FastAPI + Docker)
+## Backend Setup (FastAPI + Docker)
 
-### 🧪 Local FastAPI Setup
+###  Local FastAPI Setup
 
 1. Create a virtual environment:
 
@@ -99,7 +99,7 @@ uvicorn main:app --reload --host 127.0.0.1 --port 8000
 
 ---
 
-### 🐳 Docker Deployment
+### Docker Deployment
 
 **`Dockerfile`**
 
@@ -127,7 +127,7 @@ docker run -p 8000:8000 text-summarizer-backend
 
 ---
 
-### 🌐 Hugging Face Spaces Deployment
+### Hugging Face Spaces Deployment
 
 1. Create a **Docker-based Space** on [Hugging Face Spaces](https://huggingface.co/spaces)
 2. Push your backend code
@@ -139,7 +139,7 @@ https://<your-space-name>.hf.space/summarize
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 ### `POST /summarize`
 
@@ -166,7 +166,7 @@ https://<your-space-name>.hf.space/summarize
 
 ---
 
-## 🧪 Testing & Linting
+## Testing & Linting
 
 ```bash
 npm run type-check   # TypeScript type checks
@@ -175,7 +175,7 @@ npm run build        # Build for production
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Frontend (Vercel)
 
@@ -192,7 +192,7 @@ docker run -p 3000:3000 text-summarizer:prod
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Issue                    | Solution                                            |
 | ------------------------ | --------------------------------------------------- |
