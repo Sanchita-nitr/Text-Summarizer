@@ -12,11 +12,11 @@ A modern, AI-powered text summarization application built with **Next.js**, **Ty
 
 ## Features
 
-* Real-time Processing**: Fast and precise text summarization
-* Smart Summarization**: State-of-the-art transformer models from Hugging Face
-* Fully Responsive UI**: Mobile and desktop optimized
-* One-Click Copy**: Conveniently copy generated summaries
-* Dockerized Backend**: Containerized FastAPI backend for smooth deployment
+* Real-time Processing: Fast and precise text summarization
+* Smart Summarization: State-of-the-art transformer models from Hugging Face
+* Fully Responsive UI: Mobile and desktop optimized
+* One-Click Copy: Conveniently copy generated summaries
+* Dockerized Backend: Containerized FastAPI backend for smooth deployment
 * Sleek UI: Tailwind CSS and custom icon-based design
 
 ---
